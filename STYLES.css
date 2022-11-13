@@ -221,10 +221,11 @@ header .search-bar-container label:hover{
 
 .lorem1{width: 100%;}
 .lorem1>img{
+  display: block;
   width:200px;
   height: 200px;
   border-radius:50%;
-  margin-left:40%;
+  margin:auto;
 }
 .lorem1>h1{font-size:40px;
   text-align:center;
@@ -338,7 +339,7 @@ header .search-bar-container label:hover{
   html{
     font-size: 50%;
   }
-
+   
   .heading span{
     font-size: 4.5rem;
   }
@@ -351,9 +352,7 @@ header .search-bar-container label:hover{
     margin-top: 20px;
   }
 
-  .lorem1>img{
-    margin-left:30%;
-  }
+
 
 
 }
